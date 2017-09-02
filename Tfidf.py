@@ -8,4 +8,15 @@
 # __created__ = "2/25/16"
 # __status__ = "Production"
 # --------------------------------------------
+import file_importer
+import jieba
+
+FILE_DIR = 'huarun/'
+
+class Tfidf:
+
+    def __init__(self):
+
+
+
 
