@@ -1,56 +1,496 @@
 ---------------------------------------------
-HFM_index_1: 1HFM_name_1: 华润(集团)有限公司(PRC合并)
-HFM_index_2: 207HFM_name_2 : 华润纺织(集团)有限公司(PRC合并)
-similarity value: 0.9354143467
+HFM_index_1: 14HFM_name_1: 上海长征富民金山制药有限公司(PRC虚拟节点)
+HFM_index_2: 292HFM_name_2 : 上海长征富民金山制药有限公司
+similarity value: 0.9882643567
 ---------------------------------------------
-HFM_index_1: 1HFM_name_1: 华润(集团)有限公司(PRC合并)
-HFM_index_2: 362HFM_name_2 : 华润医疗集团有限公司(PRC合并)
-similarity value: 0.9354143467
+HFM_index_1: 15HFM_name_1: 浙江宝润毛纺有限公司(PRC合并)
+HFM_index_2: 181HFM_name_2 : 浙江华润慈客隆超市有限公司(PRC合并)
+similarity value: 0.9012767576
+---------------------------------------------
+HFM_index_1: 52HFM_name_1: 华润天能徐州煤电有限公司
+HFM_index_2: 53HFM_name_2 : 华润天能徐州煤电有限公司马庄煤矿
+similarity value: 0.9397374232
+---------------------------------------------
+HFM_index_1: 52HFM_name_1: 华润天能徐州煤电有限公司
+HFM_index_2: 55HFM_name_2 : 华润天能徐州矿业开发有限公司
+similarity value: 0.9394494626
+---------------------------------------------
+HFM_index_1: 53HFM_name_1: 华润天能徐州煤电有限公司马庄煤矿
+HFM_index_2: 52HFM_name_2 : 华润天能徐州煤电有限公司
+similarity value: 0.9397374232
+---------------------------------------------
+HFM_index_1: 55HFM_name_1: 华润天能徐州矿业开发有限公司
+HFM_index_2: 52HFM_name_2 : 华润天能徐州煤电有限公司
+similarity value: 0.9394494626
+---------------------------------------------
+HFM_index_1: 70HFM_name_1: 华润电力物流(天津)有限公司
+HFM_index_2: 79HFM_name_2 : 华润置地(天津)有限公司
+similarity value: 0.9590595447
+---------------------------------------------
+HFM_index_1: 70HFM_name_1: 华润电力物流(天津)有限公司
+HFM_index_2: 180HFM_name_2 : 天津华润万家生活超市配送分公司
+similarity value: 0.9075759584
 ---------------------------------------------
 HFM_index_1: 75HFM_name_1: 华润置地(北京)物业管理有限责任公司
-HFM_index_2: 77HFM_name_2 : 华润置地(北京)物业管理有限责任公司天津分公司
-similarity value: 0.9045340337
+HFM_index_2: 80HFM_name_2 : 北京华润物业管理有限公司
+similarity value: 0.9673579905
 ---------------------------------------------
-HFM_index_1: 77HFM_name_1: 华润置地(北京)物业管理有限责任公司天津分公司
+HFM_index_1: 75HFM_name_1: 华润置地(北京)物业管理有限责任公司
+HFM_index_2: 205HFM_name_2 : 北京华润思捷贸易有限公司
+similarity value: 0.9022224301
+---------------------------------------------
+HFM_index_1: 75HFM_name_1: 华润置地(北京)物业管理有限责任公司
+HFM_index_2: 290HFM_name_2 : 北京双鹤药业销售有限责任公司
+similarity value: 0.9173822827
+---------------------------------------------
+HFM_index_1: 75HFM_name_1: 华润置地(北京)物业管理有限责任公司
+HFM_index_2: 299HFM_name_2 : 北京紫竹药业有限公司(PRC合并)
+similarity value: 0.9038197778
+---------------------------------------------
+HFM_index_1: 78HFM_name_1: 北京华润曙光房地产开发有限公司(PRC合并)
+HFM_index_2: 80HFM_name_2 : 北京华润物业管理有限公司
+similarity value: 0.9117558428
+---------------------------------------------
+HFM_index_1: 79HFM_name_1: 华润置地(天津)有限公司
+HFM_index_2: 70HFM_name_2 : 华润电力物流(天津)有限公司
+similarity value: 0.9590595447
+---------------------------------------------
+HFM_index_1: 79HFM_name_1: 华润置地(天津)有限公司
+HFM_index_2: 180HFM_name_2 : 天津华润万家生活超市配送分公司
+similarity value: 0.9201614658
+---------------------------------------------
+HFM_index_1: 80HFM_name_1: 北京华润物业管理有限公司
 HFM_index_2: 75HFM_name_2 : 华润置地(北京)物业管理有限责任公司
-similarity value: 0.9045340337
+similarity value: 0.9673579905
+---------------------------------------------
+HFM_index_1: 80HFM_name_1: 北京华润物业管理有限公司
+HFM_index_2: 78HFM_name_2 : 北京华润曙光房地产开发有限公司(PRC合并)
+similarity value: 0.9117558428
+---------------------------------------------
+HFM_index_1: 80HFM_name_1: 北京华润物业管理有限公司
+HFM_index_2: 205HFM_name_2 : 北京华润思捷贸易有限公司
+similarity value: 0.9326695301
+---------------------------------------------
+HFM_index_1: 80HFM_name_1: 北京华润物业管理有限公司
+HFM_index_2: 218HFM_name_2 : 北京华润名汇服饰有限公司(PRC虚拟节点)
+similarity value: 0.9128683398
+---------------------------------------------
+HFM_index_1: 80HFM_name_1: 北京华润物业管理有限公司
+HFM_index_2: 222HFM_name_2 : 北京木棉花酒店管理有限公司
+similarity value: 0.9142127521
+---------------------------------------------
+HFM_index_1: 80HFM_name_1: 北京华润物业管理有限公司
+HFM_index_2: 290HFM_name_2 : 北京双鹤药业销售有限责任公司
+similarity value: 0.9155866792
+---------------------------------------------
+HFM_index_1: 80HFM_name_1: 北京华润物业管理有限公司
+HFM_index_2: 299HFM_name_2 : 北京紫竹药业有限公司(PRC合并)
+similarity value: 0.9332897677
+---------------------------------------------
+HFM_index_1: 83HFM_name_1: 深圳华润物业管理有限公司(PRC合并)
+HFM_index_2: 187HFM_name_2 : 华润堂(深圳)医药连锁有限公司(PRC合并)
+similarity value: 0.9337869349
+---------------------------------------------
+HFM_index_1: 83HFM_name_1: 深圳华润物业管理有限公司(PRC合并)
+HFM_index_2: 194HFM_name_2 : 华润怡宝食品饮料(深圳)有限公司
+similarity value: 0.9271471785
+---------------------------------------------
+HFM_index_1: 83HFM_name_1: 深圳华润物业管理有限公司(PRC合并)
+HFM_index_2: 216HFM_name_2 : 万利达服装(深圳)有限公司
+similarity value: 0.9070637569
+---------------------------------------------
+HFM_index_1: 83HFM_name_1: 深圳华润物业管理有限公司(PRC合并)
+HFM_index_2: 238HFM_name_2 : 深圳华润特种油剂有限公司
+similarity value: 0.9169001671
+---------------------------------------------
+HFM_index_1: 85HFM_name_1: WINGAR INVESTMENT LIMITED(PRC合并)
+HFM_index_2: 103HFM_name_2 : WINGAR INVESTMENT LIMITED(PRC虚拟节点)
+similarity value: 0.9195181977
 ---------------------------------------------
 HFM_index_1: 93HFM_name_1: 华润置地(成都)有限公司(PRC虚拟节点)
-HFM_index_2: 94HFM_name_2 : 华润置地(重庆)有限公司(PRC虚拟节点)
-similarity value: 0.9
+HFM_index_2: 98HFM_name_2 : 华润置地(成都)有限公司
+similarity value: 0.9871942615
 ---------------------------------------------
 HFM_index_1: 93HFM_name_1: 华润置地(成都)有限公司(PRC虚拟节点)
-HFM_index_2: 106HFM_name_2 : 华润置地(绵阳)有限公司(PRC虚拟节点)
-similarity value: 0.9
+HFM_index_2: 250HFM_name_2 : 华润停车场(成都)有限公司
+similarity value: 0.9502579902
+---------------------------------------------
+HFM_index_1: 93HFM_name_1: 华润置地(成都)有限公司(PRC虚拟节点)
+HFM_index_2: 281HFM_name_2 : 成都三九投资管理有限公司
+similarity value: 0.9341078191
+---------------------------------------------
+HFM_index_1: 93HFM_name_1: 华润置地(成都)有限公司(PRC虚拟节点)
+HFM_index_2: 318HFM_name_2 : 成都燃气发展实业有限公司
+similarity value: 0.9401488418
 ---------------------------------------------
 HFM_index_1: 94HFM_name_1: 华润置地(重庆)有限公司(PRC虚拟节点)
-HFM_index_2: 93HFM_name_2 : 华润置地(成都)有限公司(PRC虚拟节点)
-similarity value: 0.9
+HFM_index_2: 157HFM_name_2 : 重庆华润万家生活超市有限公司
+similarity value: 0.9407234478
 ---------------------------------------------
-HFM_index_1: 94HFM_name_1: 华润置地(重庆)有限公司(PRC虚拟节点)
+HFM_index_1: 96HFM_name_1: 华润置地(沈阳)有限公司
+HFM_index_2: 107HFM_name_2 : 华润置地(沈阳)开发有限公司(PRC虚拟节点)
+similarity value: 0.9757467737
+---------------------------------------------
+HFM_index_1: 96HFM_name_1: 华润置地(沈阳)有限公司
+HFM_index_2: 117HFM_name_2 : 华润置地(沈阳)开发有限公司(PRC共同父节点反冲)
+similarity value: 0.9483725397
+---------------------------------------------
+HFM_index_1: 96HFM_name_1: 华润置地(沈阳)有限公司
+HFM_index_2: 139HFM_name_2 : 华润雪花啤酒(沈阳)有限公司(PRC虚拟节点)
+similarity value: 0.955815534
+---------------------------------------------
+HFM_index_1: 98HFM_name_1: 华润置地(成都)有限公司
+HFM_index_2: 93HFM_name_2 : 华润置地(成都)有限公司(PRC虚拟节点)
+similarity value: 0.9871942615
+---------------------------------------------
+HFM_index_1: 98HFM_name_1: 华润置地(成都)有限公司
+HFM_index_2: 250HFM_name_2 : 华润停车场(成都)有限公司
+similarity value: 0.9625845968
+---------------------------------------------
+HFM_index_1: 98HFM_name_1: 华润置地(成都)有限公司
+HFM_index_2: 281HFM_name_2 : 成都三九投资管理有限公司
+similarity value: 0.9462249281
+---------------------------------------------
+HFM_index_1: 98HFM_name_1: 华润置地(成都)有限公司
+HFM_index_2: 318HFM_name_2 : 成都燃气发展实业有限公司
+similarity value: 0.952344314
+---------------------------------------------
+HFM_index_1: 100HFM_name_1: 华润置地(扬州)有限公司
+HFM_index_2: 210HFM_name_2 : 扬州华源有限公司(PRC虚拟节点)
+similarity value: 0.9570895236
+---------------------------------------------
+HFM_index_1: 102HFM_name_1: 宁波华润置地物业服务有限公司
+HFM_index_2: 182HFM_name_2 : 华润万家生活超市(宁波)有限公司
+similarity value: 0.9194497527
+---------------------------------------------
+HFM_index_1: 102HFM_name_1: 宁波华润置地物业服务有限公司
+HFM_index_2: 183HFM_name_2 : 宁波华润万家有限公司
+similarity value: 0.9416404557
+---------------------------------------------
+HFM_index_1: 103HFM_name_1: WINGAR INVESTMENT LIMITED(PRC虚拟节点)
+HFM_index_2: 85HFM_name_2 : WINGAR INVESTMENT LIMITED(PRC合并)
+similarity value: 0.9195181977
+---------------------------------------------
+HFM_index_1: 106HFM_name_1: 华润置地(绵阳)有限公司(PRC虚拟节点)
+HFM_index_2: 141HFM_name_2 : 华润雪花啤酒(绵阳)有限责任公司
+similarity value: 0.9488581783
+---------------------------------------------
+HFM_index_1: 107HFM_name_1: 华润置地(沈阳)开发有限公司(PRC虚拟节点)
+HFM_index_2: 96HFM_name_2 : 华润置地(沈阳)有限公司
+similarity value: 0.9757467737
+---------------------------------------------
+HFM_index_1: 107HFM_name_1: 华润置地(沈阳)开发有限公司(PRC虚拟节点)
+HFM_index_2: 117HFM_name_2 : 华润置地(沈阳)开发有限公司(PRC共同父节点反冲)
+similarity value: 0.9600303521
+---------------------------------------------
+HFM_index_1: 107HFM_name_1: 华润置地(沈阳)开发有限公司(PRC虚拟节点)
+HFM_index_2: 139HFM_name_2 : 华润雪花啤酒(沈阳)有限公司(PRC虚拟节点)
+similarity value: 0.9570498154
+---------------------------------------------
+HFM_index_1: 115HFM_name_1: 华润置地(常州)物业服务有限公司
+HFM_index_2: 164HFM_name_2 : 常州惠邻商贸有限公司
+similarity value: 0.9183677382
+---------------------------------------------
+HFM_index_1: 117HFM_name_1: 华润置地(沈阳)开发有限公司(PRC共同父节点反冲)
+HFM_index_2: 96HFM_name_2 : 华润置地(沈阳)有限公司
+similarity value: 0.9483725397
+---------------------------------------------
+HFM_index_1: 117HFM_name_1: 华润置地(沈阳)开发有限公司(PRC共同父节点反冲)
+HFM_index_2: 107HFM_name_2 : 华润置地(沈阳)开发有限公司(PRC虚拟节点)
+similarity value: 0.9600303521
+---------------------------------------------
+HFM_index_1: 117HFM_name_1: 华润置地(沈阳)开发有限公司(PRC共同父节点反冲)
+HFM_index_2: 139HFM_name_2 : 华润雪花啤酒(沈阳)有限公司(PRC虚拟节点)
+similarity value: 0.9181841946
+---------------------------------------------
+HFM_index_1: 139HFM_name_1: 华润雪花啤酒(沈阳)有限公司(PRC虚拟节点)
+HFM_index_2: 96HFM_name_2 : 华润置地(沈阳)有限公司
+similarity value: 0.955815534
+---------------------------------------------
+HFM_index_1: 139HFM_name_1: 华润雪花啤酒(沈阳)有限公司(PRC虚拟节点)
+HFM_index_2: 107HFM_name_2 : 华润置地(沈阳)开发有限公司(PRC虚拟节点)
+similarity value: 0.9570498154
+---------------------------------------------
+HFM_index_1: 139HFM_name_1: 华润雪花啤酒(沈阳)有限公司(PRC虚拟节点)
+HFM_index_2: 117HFM_name_2 : 华润置地(沈阳)开发有限公司(PRC共同父节点反冲)
+similarity value: 0.9181841946
+---------------------------------------------
+HFM_index_1: 141HFM_name_1: 华润雪花啤酒(绵阳)有限责任公司
 HFM_index_2: 106HFM_name_2 : 华润置地(绵阳)有限公司(PRC虚拟节点)
-similarity value: 0.9
+similarity value: 0.9488581783
 ---------------------------------------------
-HFM_index_1: 106HFM_name_1: 华润置地(绵阳)有限公司(PRC虚拟节点)
-HFM_index_2: 93HFM_name_2 : 华润置地(成都)有限公司(PRC虚拟节点)
-similarity value: 0.9
+HFM_index_1: 142HFM_name_1: 华润雪花啤酒(上海)有限公司
+HFM_index_2: 144HFM_name_2 : 上海金山华润雪花啤酒有限公司
+similarity value: 0.9670461418
 ---------------------------------------------
-HFM_index_1: 106HFM_name_1: 华润置地(绵阳)有限公司(PRC虚拟节点)
+HFM_index_1: 142HFM_name_1: 华润雪花啤酒(上海)有限公司
+HFM_index_2: 153HFM_name_2 : 上海润凡贸易有限公司
+similarity value: 0.9007743646
+---------------------------------------------
+HFM_index_1: 142HFM_name_1: 华润雪花啤酒(上海)有限公司
+HFM_index_2: 195HFM_name_2 : 麒麟饮料(上海)有限公司
+similarity value: 0.9105331111
+---------------------------------------------
+HFM_index_1: 142HFM_name_1: 华润雪花啤酒(上海)有限公司
+HFM_index_2: 283HFM_name_2 : 上海九星印刷包装有限公司
+similarity value: 0.9000402346
+---------------------------------------------
+HFM_index_1: 142HFM_name_1: 华润雪花啤酒(上海)有限公司
+HFM_index_2: 298HFM_name_2 : 上海京卫医药有限公司
+similarity value: 0.9278852664
+---------------------------------------------
+HFM_index_1: 144HFM_name_1: 上海金山华润雪花啤酒有限公司
+HFM_index_2: 142HFM_name_2 : 华润雪花啤酒(上海)有限公司
+similarity value: 0.9670461418
+---------------------------------------------
+HFM_index_1: 153HFM_name_1: 上海润凡贸易有限公司
+HFM_index_2: 142HFM_name_2 : 华润雪花啤酒(上海)有限公司
+similarity value: 0.9007743646
+---------------------------------------------
+HFM_index_1: 157HFM_name_1: 重庆华润万家生活超市有限公司
 HFM_index_2: 94HFM_name_2 : 华润置地(重庆)有限公司(PRC虚拟节点)
-similarity value: 0.9
+similarity value: 0.9407234478
 ---------------------------------------------
-HFM_index_1: 134HFM_name_1: 华润雪花啤酒(中国)有限公司江西销售分公司
-HFM_index_2: 135HFM_name_2 : 华润雪花啤酒(中国)有限公司西安销售分公司
-similarity value: 0.9
+HFM_index_1: 163HFM_name_1: 珠海市杰启经贸有限公司
+HFM_index_2: 368HFM_name_2 : 珠海市商业银行股份有限公司(PRC合并)
+similarity value: 0.9028904393
 ---------------------------------------------
-HFM_index_1: 135HFM_name_1: 华润雪花啤酒(中国)有限公司西安销售分公司
-HFM_index_2: 134HFM_name_2 : 华润雪花啤酒(中国)有限公司江西销售分公司
-similarity value: 0.9
+HFM_index_1: 164HFM_name_1: 常州惠邻商贸有限公司
+HFM_index_2: 115HFM_name_2 : 华润置地(常州)物业服务有限公司
+similarity value: 0.9183677382
 ---------------------------------------------
-HFM_index_1: 207HFM_name_1: 华润纺织(集团)有限公司(PRC合并)
-HFM_index_2: 1HFM_name_2 : 华润(集团)有限公司(PRC合并)
-similarity value: 0.9354143467
+HFM_index_1: 167HFM_name_1: 苏果超市(海安)有限公司
+HFM_index_2: 169HFM_name_2 : 苏果超市(姜堰)有限公司
+similarity value: 0.910529772
 ---------------------------------------------
-HFM_index_1: 362HFM_name_1: 华润医疗集团有限公司(PRC合并)
-HFM_index_2: 1HFM_name_2 : 华润(集团)有限公司(PRC合并)
-similarity value: 0.9354143467
+HFM_index_1: 169HFM_name_1: 苏果超市(姜堰)有限公司
+HFM_index_2: 167HFM_name_2 : 苏果超市(海安)有限公司
+similarity value: 0.910529772
+---------------------------------------------
+HFM_index_1: 175HFM_name_1: 陕西华润万家生活超市有限公司(PRC合并)
+HFM_index_2: 176HFM_name_2 : 陕西华润万家生活超市有限公司宝鸡西凤路分公司
+similarity value: 0.9178009065
+---------------------------------------------
+HFM_index_1: 176HFM_name_1: 陕西华润万家生活超市有限公司宝鸡西凤路分公司
+HFM_index_2: 175HFM_name_2 : 陕西华润万家生活超市有限公司(PRC合并)
+similarity value: 0.9178009065
+---------------------------------------------
+HFM_index_1: 180HFM_name_1: 天津华润万家生活超市配送分公司
+HFM_index_2: 70HFM_name_2 : 华润电力物流(天津)有限公司
+similarity value: 0.9075759584
+---------------------------------------------
+HFM_index_1: 180HFM_name_1: 天津华润万家生活超市配送分公司
+HFM_index_2: 79HFM_name_2 : 华润置地(天津)有限公司
+similarity value: 0.9201614658
+---------------------------------------------
+HFM_index_1: 181HFM_name_1: 浙江华润慈客隆超市有限公司(PRC合并)
+HFM_index_2: 15HFM_name_2 : 浙江宝润毛纺有限公司(PRC合并)
+similarity value: 0.9012767576
+---------------------------------------------
+HFM_index_1: 182HFM_name_1: 华润万家生活超市(宁波)有限公司
+HFM_index_2: 102HFM_name_2 : 宁波华润置地物业服务有限公司
+similarity value: 0.9194497527
+---------------------------------------------
+HFM_index_1: 182HFM_name_1: 华润万家生活超市(宁波)有限公司
+HFM_index_2: 183HFM_name_2 : 宁波华润万家有限公司
+similarity value: 0.9764339958
+---------------------------------------------
+HFM_index_1: 183HFM_name_1: 宁波华润万家有限公司
+HFM_index_2: 102HFM_name_2 : 宁波华润置地物业服务有限公司
+similarity value: 0.9416404557
+---------------------------------------------
+HFM_index_1: 183HFM_name_1: 宁波华润万家有限公司
+HFM_index_2: 182HFM_name_2 : 华润万家生活超市(宁波)有限公司
+similarity value: 0.9764339958
+---------------------------------------------
+HFM_index_1: 187HFM_name_1: 华润堂(深圳)医药连锁有限公司(PRC合并)
+HFM_index_2: 83HFM_name_2 : 深圳华润物业管理有限公司(PRC合并)
+similarity value: 0.9337869349
+---------------------------------------------
+HFM_index_1: 188HFM_name_1: 深圳市华润堂投资有限公司(PRC合并)
+HFM_index_2: 285HFM_name_2 : 深圳市三九医院有限公司
+similarity value: 0.9208516292
+---------------------------------------------
+HFM_index_1: 194HFM_name_1: 华润怡宝食品饮料(深圳)有限公司
+HFM_index_2: 83HFM_name_2 : 深圳华润物业管理有限公司(PRC合并)
+similarity value: 0.9271471785
+---------------------------------------------
+HFM_index_1: 195HFM_name_1: 麒麟饮料(上海)有限公司
+HFM_index_2: 142HFM_name_2 : 华润雪花啤酒(上海)有限公司
+similarity value: 0.9105331111
+---------------------------------------------
+HFM_index_1: 205HFM_name_1: 北京华润思捷贸易有限公司
+HFM_index_2: 75HFM_name_2 : 华润置地(北京)物业管理有限责任公司
+similarity value: 0.9022224301
+---------------------------------------------
+HFM_index_1: 205HFM_name_1: 北京华润思捷贸易有限公司
+HFM_index_2: 80HFM_name_2 : 北京华润物业管理有限公司
+similarity value: 0.9326695301
+---------------------------------------------
+HFM_index_1: 210HFM_name_1: 扬州华源有限公司(PRC虚拟节点)
+HFM_index_2: 100HFM_name_2 : 华润置地(扬州)有限公司
+similarity value: 0.9570895236
+---------------------------------------------
+HFM_index_1: 216HFM_name_1: 万利达服装(深圳)有限公司
+HFM_index_2: 83HFM_name_2 : 深圳华润物业管理有限公司(PRC合并)
+similarity value: 0.9070637569
+---------------------------------------------
+HFM_index_1: 218HFM_name_1: 北京华润名汇服饰有限公司(PRC虚拟节点)
+HFM_index_2: 80HFM_name_2 : 北京华润物业管理有限公司
+similarity value: 0.9128683398
+---------------------------------------------
+HFM_index_1: 222HFM_name_1: 北京木棉花酒店管理有限公司
+HFM_index_2: 80HFM_name_2 : 北京华润物业管理有限公司
+similarity value: 0.9142127521
+---------------------------------------------
+HFM_index_1: 233HFM_name_1: 无锡华润华晶微电子有限公司(PRC合并)
+HFM_index_2: 235HFM_name_2 : 无锡华润微电子有限公司
+similarity value: 0.9693714538
+---------------------------------------------
+HFM_index_1: 233HFM_name_1: 无锡华润华晶微电子有限公司(PRC合并)
+HFM_index_2: 328HFM_name_2 : 无锡华润燃气有限公司(合并节点)
+similarity value: 0.9436201134
+---------------------------------------------
+HFM_index_1: 235HFM_name_1: 无锡华润微电子有限公司
+HFM_index_2: 233HFM_name_2 : 无锡华润华晶微电子有限公司(PRC合并)
+similarity value: 0.9693714538
+---------------------------------------------
+HFM_index_1: 235HFM_name_1: 无锡华润微电子有限公司
+HFM_index_2: 328HFM_name_2 : 无锡华润燃气有限公司(合并节点)
+similarity value: 0.968825534
+---------------------------------------------
+HFM_index_1: 238HFM_name_1: 深圳华润特种油剂有限公司
+HFM_index_2: 83HFM_name_2 : 深圳华润物业管理有限公司(PRC合并)
+similarity value: 0.9169001671
+---------------------------------------------
+HFM_index_1: 245HFM_name_1: 高淳华润燃气(香港)有限公司(PRC合并)
+HFM_index_2: 280HFM_name_2 : 三九药业(香港)有限公司
+similarity value: 0.923143507
+---------------------------------------------
+HFM_index_1: 250HFM_name_1: 华润停车场(成都)有限公司
+HFM_index_2: 93HFM_name_2 : 华润置地(成都)有限公司(PRC虚拟节点)
+similarity value: 0.9502579902
+---------------------------------------------
+HFM_index_1: 250HFM_name_1: 华润停车场(成都)有限公司
+HFM_index_2: 98HFM_name_2 : 华润置地(成都)有限公司
+similarity value: 0.9625845968
+---------------------------------------------
+HFM_index_1: 250HFM_name_1: 华润停车场(成都)有限公司
+HFM_index_2: 281HFM_name_2 : 成都三九投资管理有限公司
+similarity value: 0.9384336183
+---------------------------------------------
+HFM_index_1: 250HFM_name_1: 华润停车场(成都)有限公司
+HFM_index_2: 318HFM_name_2 : 成都燃气发展实业有限公司
+similarity value: 0.9445026166
+---------------------------------------------
+HFM_index_1: 280HFM_name_1: 三九药业(香港)有限公司
+HFM_index_2: 245HFM_name_2 : 高淳华润燃气(香港)有限公司(PRC合并)
+similarity value: 0.923143507
+---------------------------------------------
+HFM_index_1: 281HFM_name_1: 成都三九投资管理有限公司
+HFM_index_2: 93HFM_name_2 : 华润置地(成都)有限公司(PRC虚拟节点)
+similarity value: 0.9341078191
+---------------------------------------------
+HFM_index_1: 281HFM_name_1: 成都三九投资管理有限公司
+HFM_index_2: 98HFM_name_2 : 华润置地(成都)有限公司
+similarity value: 0.9462249281
+---------------------------------------------
+HFM_index_1: 281HFM_name_1: 成都三九投资管理有限公司
+HFM_index_2: 250HFM_name_2 : 华润停车场(成都)有限公司
+similarity value: 0.9384336183
+---------------------------------------------
+HFM_index_1: 281HFM_name_1: 成都三九投资管理有限公司
+HFM_index_2: 318HFM_name_2 : 成都燃气发展实业有限公司
+similarity value: 0.9307336408
+---------------------------------------------
+HFM_index_1: 283HFM_name_1: 上海九星印刷包装有限公司
+HFM_index_2: 142HFM_name_2 : 华润雪花啤酒(上海)有限公司
+similarity value: 0.9000402346
+---------------------------------------------
+HFM_index_1: 284HFM_name_1: 深圳市三九现代中药有限公司(PRC合并)
+HFM_index_2: 285HFM_name_2 : 深圳市三九医院有限公司
+similarity value: 0.9019274148
+---------------------------------------------
+HFM_index_1: 285HFM_name_1: 深圳市三九医院有限公司
+HFM_index_2: 188HFM_name_2 : 深圳市华润堂投资有限公司(PRC合并)
+similarity value: 0.9208516292
+---------------------------------------------
+HFM_index_1: 285HFM_name_1: 深圳市三九医院有限公司
+HFM_index_2: 284HFM_name_2 : 深圳市三九现代中药有限公司(PRC合并)
+similarity value: 0.9019274148
+---------------------------------------------
+HFM_index_1: 288HFM_name_1: 北京赛科药业有限责任公司(PRC汇总)
+HFM_index_2: 290HFM_name_2 : 北京双鹤药业销售有限责任公司
+similarity value: 0.9016882037
+---------------------------------------------
+HFM_index_1: 290HFM_name_1: 北京双鹤药业销售有限责任公司
+HFM_index_2: 75HFM_name_2 : 华润置地(北京)物业管理有限责任公司
+similarity value: 0.9173822827
+---------------------------------------------
+HFM_index_1: 290HFM_name_1: 北京双鹤药业销售有限责任公司
+HFM_index_2: 80HFM_name_2 : 北京华润物业管理有限公司
+similarity value: 0.9155866792
+---------------------------------------------
+HFM_index_1: 290HFM_name_1: 北京双鹤药业销售有限责任公司
+HFM_index_2: 288HFM_name_2 : 北京赛科药业有限责任公司(PRC汇总)
+similarity value: 0.9016882037
+---------------------------------------------
+HFM_index_1: 290HFM_name_1: 北京双鹤药业销售有限责任公司
+HFM_index_2: 299HFM_name_2 : 北京紫竹药业有限公司(PRC合并)
+similarity value: 0.9135866593
+---------------------------------------------
+HFM_index_1: 292HFM_name_1: 上海长征富民金山制药有限公司
+HFM_index_2: 14HFM_name_2 : 上海长征富民金山制药有限公司(PRC虚拟节点)
+similarity value: 0.9882643567
+---------------------------------------------
+HFM_index_1: 293HFM_name_1: 山东北药鲁抗有限公司(PRC合并)
+HFM_index_2: 294HFM_name_2 : 山东北药鲁抗医药科技有限公司
+similarity value: 0.975156688
+---------------------------------------------
+HFM_index_1: 294HFM_name_1: 山东北药鲁抗医药科技有限公司
+HFM_index_2: 293HFM_name_2 : 山东北药鲁抗有限公司(PRC合并)
+similarity value: 0.975156688
+---------------------------------------------
+HFM_index_1: 298HFM_name_1: 上海京卫医药有限公司
+HFM_index_2: 142HFM_name_2 : 华润雪花啤酒(上海)有限公司
+similarity value: 0.9278852664
+---------------------------------------------
+HFM_index_1: 299HFM_name_1: 北京紫竹药业有限公司(PRC合并)
+HFM_index_2: 75HFM_name_2 : 华润置地(北京)物业管理有限责任公司
+similarity value: 0.9038197778
+---------------------------------------------
+HFM_index_1: 299HFM_name_1: 北京紫竹药业有限公司(PRC合并)
+HFM_index_2: 80HFM_name_2 : 北京华润物业管理有限公司
+similarity value: 0.9332897677
+---------------------------------------------
+HFM_index_1: 299HFM_name_1: 北京紫竹药业有限公司(PRC合并)
+HFM_index_2: 290HFM_name_2 : 北京双鹤药业销售有限责任公司
+similarity value: 0.9135866593
+---------------------------------------------
+HFM_index_1: 318HFM_name_1: 成都燃气发展实业有限公司
+HFM_index_2: 93HFM_name_2 : 华润置地(成都)有限公司(PRC虚拟节点)
+similarity value: 0.9401488418
+---------------------------------------------
+HFM_index_1: 318HFM_name_1: 成都燃气发展实业有限公司
+HFM_index_2: 98HFM_name_2 : 华润置地(成都)有限公司
+similarity value: 0.952344314
+---------------------------------------------
+HFM_index_1: 318HFM_name_1: 成都燃气发展实业有限公司
+HFM_index_2: 250HFM_name_2 : 华润停车场(成都)有限公司
+similarity value: 0.9445026166
+---------------------------------------------
+HFM_index_1: 318HFM_name_1: 成都燃气发展实业有限公司
+HFM_index_2: 281HFM_name_2 : 成都三九投资管理有限公司
+similarity value: 0.9307336408
+---------------------------------------------
+HFM_index_1: 328HFM_name_1: 无锡华润燃气有限公司(合并节点)
+HFM_index_2: 233HFM_name_2 : 无锡华润华晶微电子有限公司(PRC合并)
+similarity value: 0.9436201134
+---------------------------------------------
+HFM_index_1: 328HFM_name_1: 无锡华润燃气有限公司(合并节点)
+HFM_index_2: 235HFM_name_2 : 无锡华润微电子有限公司
+similarity value: 0.968825534
+---------------------------------------------
+HFM_index_1: 368HFM_name_1: 珠海市商业银行股份有限公司(PRC合并)
+HFM_index_2: 163HFM_name_2 : 珠海市杰启经贸有限公司
+similarity value: 0.9028904393

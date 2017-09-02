@@ -7,6 +7,15 @@ import json
 from jieba import posseg as pseg
 from scipy.spatial import distance
 
+def cut_HFM_data(arg_HFM_name_array):
+    result_array = numpy.array([set()]*arg_HFM_name_array.size)
+    for i in range(arg_HFM_name_array.size):
+        segs = pseg.cut(arg_HFM_name_array[i])
+        result_array[i] = set()
+        for w in segs:
+            result_array[i].add(w.word)
+    return result_array
+
 def word_similarity(arg1, arg2):
     """
     :param arg1: input word 1 of unicode type
@@ -36,10 +45,6 @@ def company_name_similarity_ht(arg1, arg2, tdf_weitht_dict):
     size_of_union = len(union_word_bag)
     vector1 = numpy.zeros(size_of_union)
     vector2 = numpy.zeros(size_of_union)
-    for w in union_word_bag:
-        print "w is " + unicode(w)
-        print "tdf_weight of " + unicode(w) + " is " + tdf_weitht_dict[w]
-
     vector1 = [(w in word_bag1) * float(1) * float(tdf_weitht_dict[w]) for w in union_word_bag]
     vector2 = [(w in word_bag2) * float(1) * float(tdf_weitht_dict[w]) for w in union_word_bag]
 
@@ -54,10 +59,12 @@ def set_similarity(arg1, arg2, tdf_weight=None):
     """
     similarity_matrix = numpy.zeros((arg1.size, arg2.size))
     similarity_matrix_indices = numpy.zeros((arg1.size, arg2.size), dtype=tuple)
+    cut_arg1 = cut_HFM_data(arg1)
+    cut_arg2 = cut_HFM_data(arg2)
     for i in range(arg1.size):
         print "iteration " + str(i)
         for j in range(arg2.size):
-            similarity_matrix[i][j] = company_name_similarity_ht(arg1[i], arg2[j], tdf_weight)
+            similarity_matrix[i][j] = company_name_similarity_ht(cut_arg1[i], cut_arg2[j], tdf_weight)
             similarity_matrix_indices[i][j] = (i, j)
     return similarity_matrix, similarity_matrix_indices
 
