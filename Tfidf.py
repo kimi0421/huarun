@@ -10,7 +10,7 @@
 # __status__ = "Production"
 # --------------------------------------------
 import file_importer
-import jieba
+from jieba import posseg
 import numpy as np
 import operator
 from collections import Counter
@@ -22,7 +22,6 @@ FILE2 = u'huarun/FMS数据_SBU_source'
 FILE3 = u'huarun/SIS_Entity.csv'
 
 
-<<<<<<< HEAD
 class Tfidf:
 
     def __init__(self, words_bag):
@@ -42,16 +41,14 @@ class Tfidf:
         words = self._process_data()
         words_dict = dict(Counter(words))
         return sorted(words_dict.items(), key=operator.itemgetter(1))
-=======
->>>>>>> ddfb2b449bd3be7e164ffcc6975a14717f192484
 
     def get_small_group(self):
         dictionary = Dictionary(self.words_bag)
 
     @staticmethod
     def _get_segmented(words):
-        seg_list = list(jieba.cut(words, cut_all=False))
-        return seg_list
+        seg_list = list(posseg.cut(words))
+        return [word.word for word in seg_list]
 
 if __name__ == '__main__':
     df1 = file_importer.import_data_from_csv(addr='huarun/HFM_data0703.csv', encoding='utf-8', index_col=False)
