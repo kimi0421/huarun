@@ -25,7 +25,7 @@
         <entry file="file://$PROJECT_DIR$/file_importer.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="87" column="47" selection-start-line="87" selection-start-column="47" selection-end-line="87" selection-end-column="47" />
+              <caret line="75" column="0" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
               <folding>
                 <element signature="e#42#55#0" expanded="true" />
               </folding>
@@ -76,8 +76,8 @@
       <file leaf-file-name="word_similarity.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/word_similarity.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.43289226">
-              <caret line="35" column="40" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
+            <state vertical-scroll-proportion="0.6597353">
+              <caret line="73" column="18" selection-start-line="73" selection-start-column="18" selection-end-line="73" selection-end-column="18" />
               <folding>
                 <element signature="e#42#80#0" expanded="true" />
               </folding>
@@ -142,8 +142,8 @@
         <option value="$PROJECT_DIR$/company_name_segmention.py" />
         <option value="$PROJECT_DIR$/company_name_corpus.py" />
         <option value="$PROJECT_DIR$/Tfidf.py" />
-        <option value="$PROJECT_DIR$/word_similarity.py" />
         <option value="$PROJECT_DIR$/file_importer.py" />
+        <option value="$PROJECT_DIR$/word_similarity.py" />
       </list>
     </option>
   </component>
@@ -807,7 +807,7 @@
     <entry file="file://$PROJECT_DIR$/file_importer.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="87" column="47" selection-start-line="87" selection-start-column="47" selection-end-line="87" selection-end-column="47" />
+          <caret line="75" column="0" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
           <folding>
             <element signature="e#42#55#0" expanded="true" />
           </folding>
@@ -816,8 +816,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/word_similarity.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.43289226">
-          <caret line="35" column="40" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
+        <state vertical-scroll-proportion="0.6597353">
+          <caret line="73" column="18" selection-start-line="73" selection-start-column="18" selection-end-line="73" selection-end-column="18" />
           <folding>
             <element signature="e#42#80#0" expanded="true" />
           </folding>
