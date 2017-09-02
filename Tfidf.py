@@ -13,9 +13,6 @@ import jieba
 
 FILE_DIR = 'huarun/'
 
-class Tfidf:
-
-    def __init__(self):
 
 
 

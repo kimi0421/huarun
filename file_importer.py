@@ -8,6 +8,7 @@ from matplotlib import pyplot
 from word_similarity import set_similarity
 from matrix_sampler import downsample
 from result_evaluator import evaluate_result
+import jieba.posseg as pseg
 
 def is_simplified_chinese(arg):
     """check if arg containing only simplified chinese
@@ -32,6 +33,20 @@ def preprocess_HFM_data(arg_HFM_df):
     result_df = arg_HFM_df.loc[arg_HFM_df[ur'share'].isnull(), [ur'公司名-简体']]
     return result_df
 
+def cut_HFM_data(arg_HFM_name_array):
+    result_array = numpy.array([set()]*arg_HFM_name_array.size)
+    for i in range(arg_HFM_name_array.size):
+        segs = pseg.cut(arg_HFM_name_array[i])
+        result_array[i] = set()
+        for w in segs:
+            result_array[i].add(w.word)
+    return result_array
+
+def down_sample_HFM_array(arg_HFM_name_array, N):
+    result_array = arg_HFM_name_array[0::N]
+    result_indices = range(0, arg_HFM_name_array.size, N)
+    return result_array, result_indices
+
 def preprocess_SIS_data(arg_SIS_df):
     # slice by label 'CHINESENAME'
     result_df = arg_SIS_df.loc[:, ['CHINESENAME']]
@@ -55,19 +70,21 @@ if __name__ == '__main__':
     valid_FMS2_result_with_simplied_name = FMS2_result_with_simplied_name[FMS2_result_with_simplied_name.notnull()].as_matrix()
 
     # very first model by return the similarity matrix of two sets of names
-    similartity_matrix, matindices = set_similarity(valid_HFM_result_with_simplied_name, valid_HFM_result_with_simplied_name)
+    HFM_cut_data, HFM_cut_indices = down_sample_HFM_array(cut_HFM_data(valid_HFM_result_with_simplied_name), 10)
+    print "shape of HFM_cut_data " + str(HFM_cut_data.size)
+    similartity_matrix, matindices = set_similarity(HFM_cut_data, HFM_cut_data)
 
     # evaluate our model
     evaluate_result(similartity_matrix)
 
     # downsample some match records for insight
-    downsampled_value, downsampled_indices = downsample(similartity_matrix, matindices, 50, 0.9, 1)
+    downsampled_value, downsampled_indices = downsample(similartity_matrix, matindices, 1, 0.9, 1)
     # print samples to file
-    f = open(r'samples_0.9_1_HFM_HFM.txt', 'w')
+    f = open(r'samples_0.9_1_HFM_HFM_cosine_distance.txt', 'w')
     for i in range(downsampled_value.size):
-        HFM_name_1 = valid_HFM_result_with_simplied_name[downsampled_indices[i][0]]
+        HFM_name_1 = valid_HFM_result_with_simplied_name[HFM_cut_indices[downsampled_indices[i][0]]]
         HFM_index_1 = downsampled_indices[i][0]
-        HFM_name_2 = valid_HFM_result_with_simplied_name[downsampled_indices[i][1]]
+        HFM_name_2 = valid_HFM_result_with_simplied_name[HFM_cut_indices[downsampled_indices[i][1]]]
         HFM_index_2 = downsampled_indices[i][1]
         similarity_value = downsampled_value[i]
         f.write('---------------------------------------------\n')
