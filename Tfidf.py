@@ -70,11 +70,13 @@ if __name__ == '__main__':
         for word_with_count in words_count:
             # line = word_with_count[0] + '\t' + str(word_with_count[1]) + '\n'
             if word_with_count[0] in area_word:
-                line = word_with_count[0] + '\t' + str(20 + np.log(total_count/(word_with_count[1] * 1.0 + 1))) + '\n'
-                tdf_dict[word_with_count[0]] = str(20 + np.log(total_count / (word_with_count[1] * 1.0 + 1)))
+                line = word_with_count[0] + '\t' + str(np.log(total_count/(word_with_count[1] * 1.0 + 1))) + '\n'
+                tdf_dict[word_with_count[0]] = {'effective_value': 10, 'penalty': True,
+                                                'value': str(np.log(total_count / (word_with_count[1] * 1.0 + 1)))}
             else:
                 line = word_with_count[0] + '\t' + str(np.log(total_count / (word_with_count[1] * 1.0 + 1))) + '\n'
-                tdf_dict[word_with_count[0]] = str(np.log(total_count / (word_with_count[1] * 1.0 + 1)))
+                tdf_dict[word_with_count[0]] ={'effective_value': 10, 'penalty': False,
+                                               'value': str(np.log(total_count / (word_with_count[1] * 1.0 + 1)))}
             w.write(line.encode('utf-8'))
     w.close()
     json.dump(tdf_dict, open('tdf_dict', 'w'))
