@@ -1,0 +1,56 @@
+---------------------------------------------
+HFM_index_1: 1HFM_name_1: 华润(集团)有限公司(PRC合并)
+HFM_index_2: 207HFM_name_2 : 华润纺织(集团)有限公司(PRC合并)
+similarity value: 0.9354143467
+---------------------------------------------
+HFM_index_1: 1HFM_name_1: 华润(集团)有限公司(PRC合并)
+HFM_index_2: 362HFM_name_2 : 华润医疗集团有限公司(PRC合并)
+similarity value: 0.9354143467
+---------------------------------------------
+HFM_index_1: 75HFM_name_1: 华润置地(北京)物业管理有限责任公司
+HFM_index_2: 77HFM_name_2 : 华润置地(北京)物业管理有限责任公司天津分公司
+similarity value: 0.9045340337
+---------------------------------------------
+HFM_index_1: 77HFM_name_1: 华润置地(北京)物业管理有限责任公司天津分公司
+HFM_index_2: 75HFM_name_2 : 华润置地(北京)物业管理有限责任公司
+similarity value: 0.9045340337
+---------------------------------------------
+HFM_index_1: 93HFM_name_1: 华润置地(成都)有限公司(PRC虚拟节点)
+HFM_index_2: 94HFM_name_2 : 华润置地(重庆)有限公司(PRC虚拟节点)
+similarity value: 0.9
+---------------------------------------------
+HFM_index_1: 93HFM_name_1: 华润置地(成都)有限公司(PRC虚拟节点)
+HFM_index_2: 106HFM_name_2 : 华润置地(绵阳)有限公司(PRC虚拟节点)
+similarity value: 0.9
+---------------------------------------------
+HFM_index_1: 94HFM_name_1: 华润置地(重庆)有限公司(PRC虚拟节点)
+HFM_index_2: 93HFM_name_2 : 华润置地(成都)有限公司(PRC虚拟节点)
+similarity value: 0.9
+---------------------------------------------
+HFM_index_1: 94HFM_name_1: 华润置地(重庆)有限公司(PRC虚拟节点)
+HFM_index_2: 106HFM_name_2 : 华润置地(绵阳)有限公司(PRC虚拟节点)
+similarity value: 0.9
+---------------------------------------------
+HFM_index_1: 106HFM_name_1: 华润置地(绵阳)有限公司(PRC虚拟节点)
+HFM_index_2: 93HFM_name_2 : 华润置地(成都)有限公司(PRC虚拟节点)
+similarity value: 0.9
+---------------------------------------------
+HFM_index_1: 106HFM_name_1: 华润置地(绵阳)有限公司(PRC虚拟节点)
+HFM_index_2: 94HFM_name_2 : 华润置地(重庆)有限公司(PRC虚拟节点)
+similarity value: 0.9
+---------------------------------------------
+HFM_index_1: 134HFM_name_1: 华润雪花啤酒(中国)有限公司江西销售分公司
+HFM_index_2: 135HFM_name_2 : 华润雪花啤酒(中国)有限公司西安销售分公司
+similarity value: 0.9
+---------------------------------------------
+HFM_index_1: 135HFM_name_1: 华润雪花啤酒(中国)有限公司西安销售分公司
+HFM_index_2: 134HFM_name_2 : 华润雪花啤酒(中国)有限公司江西销售分公司
+similarity value: 0.9
+---------------------------------------------
+HFM_index_1: 207HFM_name_1: 华润纺织(集团)有限公司(PRC合并)
+HFM_index_2: 1HFM_name_2 : 华润(集团)有限公司(PRC合并)
+similarity value: 0.9354143467
+---------------------------------------------
+HFM_index_1: 362HFM_name_1: 华润医疗集团有限公司(PRC合并)
+HFM_index_2: 1HFM_name_2 : 华润(集团)有限公司(PRC合并)
+similarity value: 0.9354143467

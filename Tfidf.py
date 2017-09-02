@@ -22,6 +22,7 @@ FILE2 = u'huarun/FMS数据_SBU_source'
 FILE3 = u'huarun/SIS_Entity.csv'
 
 
+<<<<<<< HEAD
 class Tfidf:
 
     def __init__(self, words_bag):
@@ -41,6 +42,8 @@ class Tfidf:
         words = self._process_data()
         words_dict = dict(Counter(words))
         return sorted(words_dict.items(), key=operator.itemgetter(1))
+=======
+>>>>>>> ddfb2b449bd3be7e164ffcc6975a14717f192484
 
     def get_small_group(self):
         dictionary = Dictionary(self.words_bag)

@@ -4,8 +4,7 @@ __author__ = 'yangzhenxi'
 from Levenshtein import distance, jaro
 import numpy
 import jieba.posseg as pseg
-import jieba.analyse as anal
-
+from scipy.spatial import distance
 
 def word_similarity(arg1, arg2):
     """
@@ -28,14 +27,19 @@ def company_name_similarity_ht(arg1, arg2):
     :return:
     """
 
-    seg_list1 = pseg.cut(arg1)
-    for w in seg_list1:
-        print w.word, w.flag
+    word_bag1 = arg1
+    word_bag2 = arg2
+    union_word_bag = word_bag1 | word_bag2
 
-    seg_list2 = pseg.cut(arg2)
-    for w in seg_list2:
-        print w.word, w.flag
-    return 1
+    # vector construction
+    size_of_union = len(union_word_bag)
+    vector1 = numpy.zeros(size_of_union)
+    vector2 = numpy.zeros(size_of_union)
+    vector1 = [(w in word_bag1) * float(1) for w in union_word_bag]
+    vector2 = [(w in word_bag2) * float(1) for w in union_word_bag]
+
+    cosine_distance = distance.cosine(vector1, vector2)
+    return 1 - round(cosine_distance, 10)
 
 def set_similarity(arg1, arg2):
     """
@@ -46,13 +50,14 @@ def set_similarity(arg1, arg2):
     similarity_matrix = numpy.zeros((arg1.size, arg2.size))
     similarity_matrix_indices = numpy.zeros((arg1.size, arg2.size), dtype=tuple)
     for i in range(arg1.size):
+        print "iteration " + str(i)
         for j in range(arg2.size):
-            similarity_matrix[i][j] = word_similarity(arg1[i], arg2[j])
+            similarity_matrix[i][j] = company_name_similarity_ht(arg1[i], arg2[j])
             similarity_matrix_indices[i][j] = (i, j)
     return similarity_matrix, similarity_matrix_indices
 
 if __name__ == '__main__':
-    result = company_name_similarity_ht(ur'辽宁（华润万家）生活超市有限公司', ur'陕西华润万家生活超市有限公司')
+    result = company_name_similarity_ht(ur'通化华润燃气(香港)有限公司', ur'海城华润燃气(香港)有限公司')
     print result
 
 
