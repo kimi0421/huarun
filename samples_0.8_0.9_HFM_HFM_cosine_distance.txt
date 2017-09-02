@@ -1,0 +1,32 @@
+---------------------------------------------
+HFM_index_1: 71HFM_name_1: 迅领控股有限公司
+HFM_index_2: 89HFM_name_2 : 迅领投资有限公司
+similarity value: 0.8762571325
+---------------------------------------------
+HFM_index_1: 75HFM_name_1: 华润置地(北京)物业管理有限责任公司
+HFM_index_2: 77HFM_name_2 : 华润置地(北京)物业管理有限责任公司天津分公司
+similarity value: 0.8122013398
+---------------------------------------------
+HFM_index_1: 77HFM_name_1: 华润置地(北京)物业管理有限责任公司天津分公司
+HFM_index_2: 75HFM_name_2 : 华润置地(北京)物业管理有限责任公司
+similarity value: 0.8122013398
+---------------------------------------------
+HFM_index_1: 85HFM_name_1: WINGAR INVESTMENT LIMITED(PRC合并)
+HFM_index_2: 103HFM_name_2 : WINGAR INVESTMENT LIMITED(PRC虚拟节点)
+similarity value: 0.8898114125
+---------------------------------------------
+HFM_index_1: 89HFM_name_1: 迅领投资有限公司
+HFM_index_2: 71HFM_name_2 : 迅领控股有限公司
+similarity value: 0.8762571325
+---------------------------------------------
+HFM_index_1: 103HFM_name_1: WINGAR INVESTMENT LIMITED(PRC虚拟节点)
+HFM_index_2: 85HFM_name_2 : WINGAR INVESTMENT LIMITED(PRC合并)
+similarity value: 0.8898114125
+---------------------------------------------
+HFM_index_1: 293HFM_name_1: 山东北药鲁抗有限公司(PRC合并)
+HFM_index_2: 294HFM_name_2 : 山东北药鲁抗医药科技有限公司
+similarity value: 0.872549304
+---------------------------------------------
+HFM_index_1: 294HFM_name_1: 山东北药鲁抗医药科技有限公司
+HFM_index_2: 293HFM_name_2 : 山东北药鲁抗有限公司(PRC合并)
+similarity value: 0.872549304
