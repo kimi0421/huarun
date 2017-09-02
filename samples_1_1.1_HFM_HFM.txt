@@ -1,0 +1,104 @@
+---------------------------------------------
+HFM_index_1: 140HFM_name_1: 上海长征富民金山制药有限公司(PRC虚拟节点)
+HFM_index_2: 3034HFM_name_2 : 上海长征富民金山制药有限公司(PRC虚拟节点)
+similarity value: 1.0
+---------------------------------------------
+HFM_index_1: 395HFM_name_1: 华润电力(海丰)有限公司
+HFM_index_2: 510HFM_name_2 : 华润电力(海丰)有限公司
+similarity value: 1.0
+---------------------------------------------
+HFM_index_1: 457HFM_name_1: 湖南华润煤业有限公司
+HFM_index_2: 460HFM_name_2 : 湖南华润煤业有限公司
+similarity value: 1.0
+---------------------------------------------
+HFM_index_1: 460HFM_name_1: 湖南华润煤业有限公司
+HFM_index_2: 457HFM_name_2 : 湖南华润煤业有限公司
+similarity value: 1.0
+---------------------------------------------
+HFM_index_1: 510HFM_name_1: 华润电力(海丰)有限公司
+HFM_index_2: 395HFM_name_2 : 华润电力(海丰)有限公司
+similarity value: 1.0
+---------------------------------------------
+HFM_index_1: 750HFM_name_1: 华润置地(北京)物业管理有限责任公司
+HFM_index_2: 752HFM_name_2 : 华润置地(北京)物业管理有限责任公司
+similarity value: 1.0
+---------------------------------------------
+HFM_index_1: 752HFM_name_1: 华润置地(北京)物业管理有限责任公司
+HFM_index_2: 750HFM_name_2 : 华润置地(北京)物业管理有限责任公司
+similarity value: 1.0
+---------------------------------------------
+HFM_index_1: 843HFM_name_1: 华润(深圳)有限公司
+HFM_index_2: 845HFM_name_2 : 华润(深圳)有限公司
+similarity value: 1.0
+---------------------------------------------
+HFM_index_1: 845HFM_name_1: 华润(深圳)有限公司
+HFM_index_2: 843HFM_name_2 : 华润(深圳)有限公司
+similarity value: 1.0
+---------------------------------------------
+HFM_index_1: 1522HFM_name_1: 上海润欣时装有限公司(PRC虚拟节点)
+HFM_index_2: 2182HFM_name_2 : 上海润欣时装有限公司(PRC虚拟节点)
+similarity value: 1.0
+---------------------------------------------
+HFM_index_1: 1529HFM_name_1: 上海润锦服饰有限公司(PRC虚拟节点)
+HFM_index_2: 2181HFM_name_2 : 上海润锦服饰有限公司(PRC虚拟节点)
+similarity value: 1.0
+---------------------------------------------
+HFM_index_1: 1806HFM_name_1: 华润万家有限公司
+HFM_index_2: 1807HFM_name_2 : 华润万家有限公司
+similarity value: 1.0
+---------------------------------------------
+HFM_index_1: 1807HFM_name_1: 华润万家有限公司
+HFM_index_2: 1806HFM_name_2 : 华润万家有限公司
+similarity value: 1.0
+---------------------------------------------
+HFM_index_1: 1892HFM_name_1: 深圳市三九医药连锁股份有限公司(PRC虚拟节点)
+HFM_index_2: 2835HFM_name_2 : 深圳市三九医药连锁股份有限公司(PRC虚拟节点)
+similarity value: 1.0
+---------------------------------------------
+HFM_index_1: 2181HFM_name_1: 上海润锦服饰有限公司(PRC虚拟节点)
+HFM_index_2: 1529HFM_name_2 : 上海润锦服饰有限公司(PRC虚拟节点)
+similarity value: 1.0
+---------------------------------------------
+HFM_index_1: 2182HFM_name_1: 上海润欣时装有限公司(PRC虚拟节点)
+HFM_index_2: 1522HFM_name_2 : 上海润欣时装有限公司(PRC虚拟节点)
+similarity value: 1.0
+---------------------------------------------
+HFM_index_1: 2252HFM_name_1: 上华半导体制造有限公司(PRC合并)
+HFM_index_2: 2253HFM_name_2 : 上华半导体制造有限公司(PRC合并)
+similarity value: 1.0
+---------------------------------------------
+HFM_index_1: 2253HFM_name_1: 上华半导体制造有限公司(PRC合并)
+HFM_index_2: 2252HFM_name_2 : 上华半导体制造有限公司(PRC合并)
+similarity value: 1.0
+---------------------------------------------
+HFM_index_1: 2307HFM_name_1: 无锡华润硅科微电子有限公司(PRC合并)
+HFM_index_2: 2311HFM_name_2 : 无锡华润硅科微电子有限公司(PRC合并)
+similarity value: 1.0
+---------------------------------------------
+HFM_index_1: 2311HFM_name_1: 无锡华润硅科微电子有限公司(PRC合并)
+HFM_index_2: 2307HFM_name_2 : 无锡华润硅科微电子有限公司(PRC合并)
+similarity value: 1.0
+---------------------------------------------
+HFM_index_1: 2330HFM_name_1: 无锡华润华晶微电子有限公司(PRC合并)
+HFM_index_2: 2332HFM_name_2 : 无锡华润华晶微电子有限公司(PRC合并)
+similarity value: 1.0
+---------------------------------------------
+HFM_index_1: 2332HFM_name_1: 无锡华润华晶微电子有限公司(PRC合并)
+HFM_index_2: 2330HFM_name_2 : 无锡华润华晶微电子有限公司(PRC合并)
+similarity value: 1.0
+---------------------------------------------
+HFM_index_1: 2348HFM_name_1: 无锡华润微电子有限公司(PRC合并)
+HFM_index_2: 2349HFM_name_2 : 无锡华润微电子有限公司(PRC合并)
+similarity value: 1.0
+---------------------------------------------
+HFM_index_1: 2349HFM_name_1: 无锡华润微电子有限公司(PRC合并)
+HFM_index_2: 2348HFM_name_2 : 无锡华润微电子有限公司(PRC合并)
+similarity value: 1.0
+---------------------------------------------
+HFM_index_1: 2835HFM_name_1: 深圳市三九医药连锁股份有限公司(PRC虚拟节点)
+HFM_index_2: 1892HFM_name_2 : 深圳市三九医药连锁股份有限公司(PRC虚拟节点)
+similarity value: 1.0
+---------------------------------------------
+HFM_index_1: 3034HFM_name_1: 上海长征富民金山制药有限公司(PRC虚拟节点)
+HFM_index_2: 140HFM_name_2 : 上海长征富民金山制药有限公司(PRC虚拟节点)
+similarity value: 1.0
