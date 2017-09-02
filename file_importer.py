@@ -9,6 +9,7 @@ from word_similarity import set_similarity
 from matrix_sampler import downsample
 from result_evaluator import evaluate_result
 import jieba.posseg as pseg
+import json
 
 def is_simplified_chinese(arg):
     """check if arg containing only simplified chinese
@@ -72,7 +73,9 @@ if __name__ == '__main__':
     # very first model by return the similarity matrix of two sets of names
     HFM_cut_data, HFM_cut_indices = down_sample_HFM_array(cut_HFM_data(valid_HFM_result_with_simplied_name), 10)
     print "shape of HFM_cut_data " + str(HFM_cut_data.size)
-    similartity_matrix, matindices = set_similarity(HFM_cut_data, HFM_cut_data)
+
+    tdf_weight = json.loads(open('tdf_dict', 'r+').read())
+    similartity_matrix, matindices = set_similarity(arg1=HFM_cut_data, arg2=HFM_cut_data, tdf_weight=tdf_weight)
 
     # evaluate our model
     evaluate_result(similartity_matrix)
