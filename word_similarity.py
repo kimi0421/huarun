@@ -10,6 +10,7 @@ from scipy.spatial import distance
 def cut_HFM_data(arg_HFM_name_array):
     result_array = numpy.array([set()]*arg_HFM_name_array.size)
     for i in range(arg_HFM_name_array.size):
+        #print arg_HFM_name_array[i]
         segs = pseg.cut(arg_HFM_name_array[i])
         result_array[i] = set()
         for w in segs:
@@ -22,11 +23,9 @@ def word_similarity(arg1, arg2):
     :param arg2: input word 2 of unicode type
     :return: jaro similarity value of arg1 and arg2
     """
-    arg1 = arg1.replace(u'有限公司', u'')
-    arg2 = arg2.replace(u'有限公司', u'')
     return jaro(arg1, arg2)
 
-def company_name_similarity_ht(arg1, arg2, tdf_weitht_dict):
+def company_name_similarity_ht(arg1, arg2, tdf_weight_dict):
     """
     use a hand tuned model to check the similarity of company names
     if the most important segments are the same or similar, then
@@ -43,10 +42,16 @@ def company_name_similarity_ht(arg1, arg2, tdf_weitht_dict):
 
     # vector construction
     size_of_union = len(union_word_bag)
-    vector1 = numpy.zeros(size_of_union)
-    vector2 = numpy.zeros(size_of_union)
-    vector1 = [(w in word_bag1) * float(1) * float(tdf_weitht_dict[w]) for w in union_word_bag]
-    vector2 = [(w in word_bag2) * float(1) * float(tdf_weitht_dict[w]) for w in union_word_bag]
+    vector1 = list()
+    vector2 = list()
+    for w in union_word_bag:
+        is_penalty_word = tdf_weight_dict[w]['penalty'] == 'True'
+        is_penalty_condition = not ((w in word_bag1) and (w in word_bag2))
+        weight = float(tdf_weight_dict[w]['value'])
+        if is_penalty_word & is_penalty_condition :
+            weight *= float(tdf_weight_dict[w]['effect_value'])
+        vector1.append((w in word_bag1) * float(1) * weight / float(len(word_bag1)))
+        vector2.append((w in word_bag2) * float(1) * weight / float(len(word_bag2)))
 
     cosine_distance = distance.cosine(vector1, vector2)
     return 1 - round(cosine_distance, 10)
@@ -70,8 +75,8 @@ def set_similarity(arg1, arg2, tdf_weight=None):
 
 if __name__ == '__main__':
     tdf_weitht = json.loads(open('tdf_dict', 'r+').read())
-    word1 = ur'通化华润燃气(香港)有限公司'
-    word2 = ur'海城华润燃气(香港)有限公司'
+    word1 = ur'华润置地(成都)有限公司'
+    word2 = ur'华润置地(成都)有限公司(PRC虚拟节点)'
     seg1 = pseg.cut(word1)
     cut_data1 = set()
     for w in seg1:
@@ -81,6 +86,5 @@ if __name__ == '__main__':
     for w in seg2:
         cut_data2.add(w.word)
     result = company_name_similarity_ht(cut_data1, cut_data2, tdf_weitht)
-    print result
 
 

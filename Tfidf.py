@@ -57,7 +57,7 @@ if __name__ == '__main__':
     df4 = file_importer.import_data_from_excel(addr='huarun/FMS数据_SBU_source.xls', index_col=False, sheetname=2)
     company_names = []
     company_names.extend(df1[u'公司名-简体'].tolist())
-    # company_names.extend(df2['CHINESENAME'].tolist())
+    company_names.extend(df2['CHINESENAME'].tolist())
     # company_names.extend(df3[u'机构描述'].tolist())
     # company_names.extend(df4[u'机构描述'].tolist())
     tf = Tfidf(company_names)
@@ -79,6 +79,6 @@ if __name__ == '__main__':
                                                'value': str(np.log(total_count / (word_with_count[1] * 1.0 + 1)))}
             w.write(line.encode('utf-8'))
     w.close()
-    json.dump(tdf_dict, open('tdf_dict', 'w'))
-    import ipdb; ipdb.set_trace()
+    json.dump(tdf_dict, open('tdf_dict2', 'w'))
+    #import ipdb; ipdb.set_trace()
 

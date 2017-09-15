@@ -1,0 +1,88 @@
+---------------------------------------------
+HFM_index_1: 1HFM_name_1: 华润(集团)有限公司(PRC合并)
+HFM_index_2: 207HFM_name_2 : 华润纺织(集团)有限公司(PRC合并)
+similarity value: 0.7663528859
+---------------------------------------------
+HFM_index_1: 12HFM_name_1: 深圳华夏资产管理有限公司
+HFM_index_2: 13HFM_name_2 : 华润资产管理有限公司
+similarity value: 0.7259796315
+---------------------------------------------
+HFM_index_1: 13HFM_name_1: 华润资产管理有限公司
+HFM_index_2: 12HFM_name_2 : 深圳华夏资产管理有限公司
+similarity value: 0.7259796315
+---------------------------------------------
+HFM_index_1: 75HFM_name_1: 华润置地(北京)物业管理有限责任公司
+HFM_index_2: 77HFM_name_2 : 华润置地(北京)物业管理有限责任公司天津分公司
+similarity value: 0.79058398
+---------------------------------------------
+HFM_index_1: 77HFM_name_1: 华润置地(北京)物业管理有限责任公司天津分公司
+HFM_index_2: 75HFM_name_2 : 华润置地(北京)物业管理有限责任公司
+similarity value: 0.79058398
+---------------------------------------------
+HFM_index_1: 96HFM_name_1: 华润置地(沈阳)有限公司
+HFM_index_2: 107HFM_name_2 : 华润置地(沈阳)开发有限公司(PRC虚拟节点)
+similarity value: 0.7557261652
+---------------------------------------------
+HFM_index_1: 102HFM_name_1: 宁波华润置地物业服务有限公司
+HFM_index_2: 115HFM_name_2 : 华润置地(常州)物业服务有限公司
+similarity value: 0.7021989249
+---------------------------------------------
+HFM_index_1: 107HFM_name_1: 华润置地(沈阳)开发有限公司(PRC虚拟节点)
+HFM_index_2: 96HFM_name_2 : 华润置地(沈阳)有限公司
+similarity value: 0.7557261652
+---------------------------------------------
+HFM_index_1: 107HFM_name_1: 华润置地(沈阳)开发有限公司(PRC虚拟节点)
+HFM_index_2: 117HFM_name_2 : 华润置地(沈阳)开发有限公司(PRC共同父节点反冲)
+similarity value: 0.7211307117
+---------------------------------------------
+HFM_index_1: 115HFM_name_1: 华润置地(常州)物业服务有限公司
+HFM_index_2: 102HFM_name_2 : 宁波华润置地物业服务有限公司
+similarity value: 0.7021989249
+---------------------------------------------
+HFM_index_1: 117HFM_name_1: 华润置地(沈阳)开发有限公司(PRC共同父节点反冲)
+HFM_index_2: 107HFM_name_2 : 华润置地(沈阳)开发有限公司(PRC虚拟节点)
+similarity value: 0.7211307117
+---------------------------------------------
+HFM_index_1: 134HFM_name_1: 华润雪花啤酒(中国)有限公司江西销售分公司
+HFM_index_2: 135HFM_name_2 : 华润雪花啤酒(中国)有限公司西安销售分公司
+similarity value: 0.704117874
+---------------------------------------------
+HFM_index_1: 135HFM_name_1: 华润雪花啤酒(中国)有限公司西安销售分公司
+HFM_index_2: 134HFM_name_2 : 华润雪花啤酒(中国)有限公司江西销售分公司
+similarity value: 0.704117874
+---------------------------------------------
+HFM_index_1: 159HFM_name_1: 江西洪客隆宜春百货投资有限公司
+HFM_index_2: 160HFM_name_2 : 洪客隆投资发展(宜春)有限公司
+similarity value: 0.7211259142
+---------------------------------------------
+HFM_index_1: 160HFM_name_1: 洪客隆投资发展(宜春)有限公司
+HFM_index_2: 159HFM_name_2 : 江西洪客隆宜春百货投资有限公司
+similarity value: 0.7211259142
+---------------------------------------------
+HFM_index_1: 182HFM_name_1: 华润万家生活超市(宁波)有限公司
+HFM_index_2: 183HFM_name_2 : 宁波华润万家有限公司
+similarity value: 0.7482710443
+---------------------------------------------
+HFM_index_1: 183HFM_name_1: 宁波华润万家有限公司
+HFM_index_2: 182HFM_name_2 : 华润万家生活超市(宁波)有限公司
+similarity value: 0.7482710443
+---------------------------------------------
+HFM_index_1: 207HFM_name_1: 华润纺织(集团)有限公司(PRC合并)
+HFM_index_2: 1HFM_name_2 : 华润(集团)有限公司(PRC合并)
+similarity value: 0.7663528859
+---------------------------------------------
+HFM_index_1: 233HFM_name_1: 无锡华润华晶微电子有限公司(PRC合并)
+HFM_index_2: 235HFM_name_2 : 无锡华润微电子有限公司
+similarity value: 0.7159376075
+---------------------------------------------
+HFM_index_1: 235HFM_name_1: 无锡华润微电子有限公司
+HFM_index_2: 233HFM_name_2 : 无锡华润华晶微电子有限公司(PRC合并)
+similarity value: 0.7159376075
+---------------------------------------------
+HFM_index_1: 268HFM_name_1: HENTEX RESOURCES LIMITED(PRC合并)
+HFM_index_2: 276HFM_name_2 : HENTEX RESOURCES LIMITED(HK虚拟节点)
+similarity value: 0.7981911868
+---------------------------------------------
+HFM_index_1: 276HFM_name_1: HENTEX RESOURCES LIMITED(HK虚拟节点)
+HFM_index_2: 268HFM_name_2 : HENTEX RESOURCES LIMITED(PRC合并)
+similarity value: 0.7981911868

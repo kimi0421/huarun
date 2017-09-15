@@ -34,15 +34,40 @@ def preprocess_HFM_data(arg_HFM_df):
     result_df = arg_HFM_df.loc[arg_HFM_df[ur'share'].isnull(), [ur'公司名-简体']]
     return result_df
 
-def down_sample_HFM_array(arg_HFM_name_array, N):
-    result_array = arg_HFM_name_array[0::N]
-    result_indices = range(0, arg_HFM_name_array.size, N)
+def down_sample_array(arg_name_array, N):
+    result_array = arg_name_array[0::N]
+    result_indices = range(0, arg_name_array.size, N)
     return result_array, result_indices
 
 def preprocess_SIS_data(arg_SIS_df):
     # slice by label 'CHINESENAME'
-    result_df = arg_SIS_df.loc[:, ['CHINESENAME']]
+    result_df = arg_SIS_df.loc[:, 'CHINESENAME']
     return result_df
+
+def print_samples(sample_value,
+                  sample_indices,
+                  prefix_1,
+                  name_array_1,
+                  index_array_1,
+                  prefix_2,
+                  name_array_2,
+                  index_array_2,
+                  file_name):
+    f = open(file_name, 'w')
+    for i in range(sample_value.size):
+        name_1 = name_array_1[index_array_1[sample_indices[i][0]]]
+        index_1 = index_array_1[sample_indices[i][0]]
+        name_2 = name_array_2[index_array_2[sample_indices[i][1]]]
+        index_2 = index_array_2[sample_indices[i][1]]
+        similarity_value = sample_value[i]
+        f.write('---------------------------------------------\n')
+        str_to_write = unicode(prefix_1) + ur': index_1: ' + unicode(index_1) + ur'name_1: ' + name_1 + '\n'
+        f.write(str_to_write.encode('utf8'))
+        str_to_write = unicode(prefix_2) + ur': index_2: ' + unicode(index_2) + ur'name_2 : ' + name_2 + '\n'
+        f.write(str_to_write.encode('utf8'))
+        str_to_write = r'similarity value: ' + str(similarity_value) + '\n'
+        f.write(str_to_write)
+    f.close()
 
 if __name__ == '__main__':
     data_set1 = import_data_from_csv(addr='huarun/HFM_data0703.csv', encoding='utf-8', index_col=False)
@@ -62,35 +87,32 @@ if __name__ == '__main__':
     valid_FMS2_result_with_simplied_name = FMS2_result_with_simplied_name[FMS2_result_with_simplied_name.notnull()].as_matrix()
 
     # very first model by return the similarity matrix of two sets of names
-    HFM_downsampled_data, HFM_downsampled_indices = down_sample_HFM_array(valid_HFM_result_with_simplied_name, 10)
-    print "shape of HFM_cut_data " + str(HFM_downsampled_data.size)
+    HFM_downsampled_data, HFM_downsampled_indices = down_sample_array(valid_HFM_result_with_simplied_name, 5)
+    SIS_downsampled_data, SIS_downsampled_indices = down_sample_array(valid_SIS_result_with_simplied_name, 5)
+    print "shape of HFM_sampled_data " + str(HFM_downsampled_data.size)
+    print "shape of SIS_sampled_data " + str(SIS_downsampled_data.size)
 
-    tdf_weight = json.loads(open('tdf_dict', 'r+').read())
+    tdf_weight = json.loads(open('tdf_dict2', 'r+').read())
     similartity_matrix, matindices = set_similarity(arg1=HFM_downsampled_data,
-                                                    arg2=HFM_downsampled_data,
+                                                    arg2=SIS_downsampled_data,
                                                     tdf_weight=tdf_weight)
 
     # evaluate our model
     evaluate_result(similartity_matrix)
 
     # downsample some match records for insight
-    downsampled_value, downsampled_indices = downsample(similartity_matrix, matindices, 1, 0.9, 1)
-    # print samples to file
-    f = open(r'samples_0.9_1_HFM_HFM_cosine_distance.txt', 'w')
-    for i in range(downsampled_value.size):
-        HFM_name_1 = valid_HFM_result_with_simplied_name[HFM_downsampled_indices[downsampled_indices[i][0]]]
-        HFM_index_1 = downsampled_indices[i][0]
-        HFM_name_2 = valid_HFM_result_with_simplied_name[HFM_downsampled_indices[downsampled_indices[i][1]]]
-        HFM_index_2 = downsampled_indices[i][1]
-        similarity_value = downsampled_value[i]
-        f.write('---------------------------------------------\n')
-        str_to_write = ur'HFM_index_1: ' + unicode(HFM_index_1) + ur'HFM_name_1: ' + HFM_name_1 + '\n'
-        f.write(str_to_write.encode('utf8'))
-        str_to_write = ur'HFM_index_2: ' + unicode(HFM_index_2) + ur'HFM_name_2 : ' + HFM_name_2 + '\n'
-        f.write(str_to_write.encode('utf8'))
-        str_to_write = r'similarity value: ' + str(similarity_value) + '\n'
-        f.write(str_to_write)
-    f.close()
+    for i in [0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9]:
+        downsampled_value, downsampled_indices = downsample(similartity_matrix, matindices, 1, i, i+0.1)
+        print "number in bucket "+str(i) + '_'+str(i+0.1)+' is: '+str(downsampled_value.size)
+        print_samples(downsampled_value,
+                      downsampled_indices,
+                      "HFM",
+                      valid_HFM_result_with_simplied_name,
+                      HFM_downsampled_indices,
+                      "SIS",
+                      valid_SIS_result_with_simplied_name,
+                      SIS_downsampled_indices,
+                      'samples_' + str(i) + '_'+str(i+0.1)+'_HFM_SIS_cosine_distance4.txt')
 
     # print the distribution of the value in similarity_matrix
     pyplot.hist(similartity_matrix.flatten(), 50)

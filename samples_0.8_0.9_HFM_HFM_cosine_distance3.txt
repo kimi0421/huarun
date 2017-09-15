@@ -1,0 +1,96 @@
+---------------------------------------------
+HFM_index_1: 22HFM_name_1: GMI Zhengzhou Holdings Inc(PRC共同父节点反冲)
+HFM_index_2: 233HFM_name_2 : GMI Zhengzhou Holdings Inc
+similarity value: 0.8483841883
+---------------------------------------------
+HFM_index_1: 101HFM_name_1: 沧州华润热电有限公司(PRC合并)
+HFM_index_2: 128HFM_name_2 : 沧州华润热电有限公司(PRC虚拟节点)
+similarity value: 0.8903787063
+---------------------------------------------
+HFM_index_1: 128HFM_name_1: 沧州华润热电有限公司(PRC虚拟节点)
+HFM_index_2: 101HFM_name_2 : 沧州华润热电有限公司(PRC合并)
+similarity value: 0.8903787063
+---------------------------------------------
+HFM_index_1: 142HFM_name_1: 迅领控股有限公司
+HFM_index_2: 178HFM_name_2 : 迅领投资有限公司
+similarity value: 0.8742851548
+---------------------------------------------
+HFM_index_1: 150HFM_name_1: 华润置地(北京)物业管理有限责任公司
+HFM_index_2: 153HFM_name_2 : 华润置地(北京)物业管理有限责任公司无锡分公司
+similarity value: 0.8252112945
+---------------------------------------------
+HFM_index_1: 153HFM_name_1: 华润置地(北京)物业管理有限责任公司无锡分公司
+HFM_index_2: 150HFM_name_2 : 华润置地(北京)物业管理有限责任公司
+similarity value: 0.8252112945
+---------------------------------------------
+HFM_index_1: 178HFM_name_1: 迅领投资有限公司
+HFM_index_2: 142HFM_name_2 : 迅领控股有限公司
+similarity value: 0.8742851548
+---------------------------------------------
+HFM_index_1: 186HFM_name_1: 华润置地(成都)有限公司(PRC虚拟节点)
+HFM_index_2: 196HFM_name_2 : 华润置地(成都)有限公司
+similarity value: 0.8423642031
+---------------------------------------------
+HFM_index_1: 196HFM_name_1: 华润置地(成都)有限公司
+HFM_index_2: 186HFM_name_2 : 华润置地(成都)有限公司(PRC虚拟节点)
+similarity value: 0.8423642031
+---------------------------------------------
+HFM_index_1: 215HFM_name_1: 华润置地(上海)物业管理有限公司(PRC共同父节点反冲)
+HFM_index_2: 216HFM_name_2 : 华润置地(合肥)物业管理有限公司(PRC共同父节点反冲)
+similarity value: 0.8391064001
+---------------------------------------------
+HFM_index_1: 216HFM_name_1: 华润置地(合肥)物业管理有限公司(PRC共同父节点反冲)
+HFM_index_2: 215HFM_name_2 : 华润置地(上海)物业管理有限公司(PRC共同父节点反冲)
+similarity value: 0.8391064001
+---------------------------------------------
+HFM_index_1: 233HFM_name_1: GMI Zhengzhou Holdings Inc
+HFM_index_2: 22HFM_name_2 : GMI Zhengzhou Holdings Inc(PRC共同父节点反冲)
+similarity value: 0.8483841883
+---------------------------------------------
+HFM_index_1: 371HFM_name_1: 中艺服装有限公司
+HFM_index_2: 421HFM_name_2 : 中艺(汕头)服装有限公司
+similarity value: 0.8054156875
+---------------------------------------------
+HFM_index_1: 421HFM_name_1: 中艺(汕头)服装有限公司
+HFM_index_2: 371HFM_name_2 : 中艺服装有限公司
+similarity value: 0.8054156875
+---------------------------------------------
+HFM_index_1: 497HFM_name_1: 旺高有限公司(PRC虚拟节点)
+HFM_index_2: 686HFM_name_2 : 旺高有限公司(PRC合并)
+similarity value: 0.854054101
+---------------------------------------------
+HFM_index_1: 563HFM_name_1: 深圳九星印刷包装集团有限公司
+HFM_index_2: 566HFM_name_2 : 上海九星印刷包装有限公司
+similarity value: 0.8197592187
+---------------------------------------------
+HFM_index_1: 566HFM_name_1: 上海九星印刷包装有限公司
+HFM_index_2: 563HFM_name_2 : 深圳九星印刷包装集团有限公司
+similarity value: 0.8197592187
+---------------------------------------------
+HFM_index_1: 586HFM_name_1: 山东北药鲁抗有限公司(PRC合并)
+HFM_index_2: 588HFM_name_2 : 山东北药鲁抗医药科技有限公司
+similarity value: 0.8833601546
+---------------------------------------------
+HFM_index_1: 586HFM_name_1: 山东北药鲁抗有限公司(PRC合并)
+HFM_index_2: 597HFM_name_2 : 山东北药鲁抗有限公司(PRC共同父节点反冲)
+similarity value: 0.8511470707
+---------------------------------------------
+HFM_index_1: 588HFM_name_1: 山东北药鲁抗医药科技有限公司
+HFM_index_2: 586HFM_name_2 : 山东北药鲁抗有限公司(PRC合并)
+similarity value: 0.8833601546
+---------------------------------------------
+HFM_index_1: 595HFM_name_1: 华润昆山医药有限公司
+HFM_index_2: 604HFM_name_2 : 华润昆山医药有限公司(PRC虚拟节点)
+similarity value: 0.858357504
+---------------------------------------------
+HFM_index_1: 597HFM_name_1: 山东北药鲁抗有限公司(PRC共同父节点反冲)
+HFM_index_2: 586HFM_name_2 : 山东北药鲁抗有限公司(PRC合并)
+similarity value: 0.8511470707
+---------------------------------------------
+HFM_index_1: 604HFM_name_1: 华润昆山医药有限公司(PRC虚拟节点)
+HFM_index_2: 595HFM_name_2 : 华润昆山医药有限公司
+similarity value: 0.858357504
+---------------------------------------------
+HFM_index_1: 686HFM_name_1: 旺高有限公司(PRC合并)
+HFM_index_2: 497HFM_name_2 : 旺高有限公司(PRC虚拟节点)
+similarity value: 0.854054101

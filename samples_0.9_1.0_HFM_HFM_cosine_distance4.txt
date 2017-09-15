@@ -1,0 +1,40 @@
+---------------------------------------------
+HFM: index_1: 140name_1: 上海长征富民金山制药有限公司(PRC虚拟节点)
+HFM: index_2: 2920name_2 : 上海长征富民金山制药有限公司
+similarity value: 0.9521007066
+---------------------------------------------
+HFM: index_1: 850name_1: WINGAR INVESTMENT LIMITED(PRC合并)
+HFM: index_2: 1030name_2 : WINGAR INVESTMENT LIMITED(PRC虚拟节点)
+similarity value: 0.9195181977
+---------------------------------------------
+HFM: index_1: 1030name_1: WINGAR INVESTMENT LIMITED(PRC虚拟节点)
+HFM: index_2: 850name_2 : WINGAR INVESTMENT LIMITED(PRC合并)
+similarity value: 0.9195181977
+---------------------------------------------
+HFM: index_1: 1510name_1: China Resources Vogue Limited
+HFM: index_2: 1545name_2 : China Resources Vogue Limited(PRC虚拟节点)
+similarity value: 0.9194928955
+---------------------------------------------
+HFM: index_1: 1545name_1: China Resources Vogue Limited(PRC虚拟节点)
+HFM: index_2: 1510name_2 : China Resources Vogue Limited
+similarity value: 0.9194928955
+---------------------------------------------
+HFM: index_1: 1865name_1: 华润堂(深圳)医药连锁有限公司(PRC虚拟节点)
+HFM: index_2: 1870name_2 : 华润堂(深圳)医药连锁有限公司(PRC合并)
+similarity value: 0.9017653528
+---------------------------------------------
+HFM: index_1: 1870name_1: 华润堂(深圳)医药连锁有限公司(PRC合并)
+HFM: index_2: 1865name_2 : 华润堂(深圳)医药连锁有限公司(PRC虚拟节点)
+similarity value: 0.9017653528
+---------------------------------------------
+HFM: index_1: 2820name_1: 深圳市九恒印刷设备器材有限公司
+HFM: index_2: 2825name_2 : 深圳市九恒印刷设备器材有限公司北京分公司
+similarity value: 0.9374986328
+---------------------------------------------
+HFM: index_1: 2825name_1: 深圳市九恒印刷设备器材有限公司北京分公司
+HFM: index_2: 2820name_2 : 深圳市九恒印刷设备器材有限公司
+similarity value: 0.9374986328
+---------------------------------------------
+HFM: index_1: 2920name_1: 上海长征富民金山制药有限公司
+HFM: index_2: 140name_2 : 上海长征富民金山制药有限公司(PRC虚拟节点)
+similarity value: 0.9521007066

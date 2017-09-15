@@ -1,0 +1,152 @@
+---------------------------------------------
+HFM_index_1: 1HFM_name_1: 华润(集团)有限公司(PRC合并)
+HFM_index_2: 362HFM_name_2 : 华润医疗集团有限公司(PRC合并)
+similarity value: 0.6730325143
+---------------------------------------------
+HFM_index_1: 23HFM_name_1: 华润装饰工程有限公司
+HFM_index_2: 113HFM_name_2 : 北京优高雅装饰工程有限公司
+similarity value: 0.6348601495
+---------------------------------------------
+HFM_index_1: 44HFM_name_1: China Resources Wenzhou Power Co Ltd(PRC合并)
+HFM_index_2: 63HFM_name_2 : China Resources Power Persona Co Ltd
+similarity value: 0.6778137602
+---------------------------------------------
+HFM_index_1: 52HFM_name_1: 华润天能徐州煤电有限公司
+HFM_index_2: 53HFM_name_2 : 华润天能徐州煤电有限公司马庄煤矿
+similarity value: 0.6771116736
+---------------------------------------------
+HFM_index_1: 53HFM_name_1: 华润天能徐州煤电有限公司马庄煤矿
+HFM_index_2: 52HFM_name_2 : 华润天能徐州煤电有限公司
+similarity value: 0.6771116736
+---------------------------------------------
+HFM_index_1: 63HFM_name_1: China Resources Power Persona Co Ltd
+HFM_index_2: 44HFM_name_2 : China Resources Wenzhou Power Co Ltd(PRC合并)
+similarity value: 0.6778137602
+---------------------------------------------
+HFM_index_1: 74HFM_name_1: 华润置地有限公司(PRC合并)
+HFM_index_2: 96HFM_name_2 : 华润置地(沈阳)有限公司
+similarity value: 0.6241524031
+---------------------------------------------
+HFM_index_1: 74HFM_name_1: 华润置地有限公司(PRC合并)
+HFM_index_2: 98HFM_name_2 : 华润置地(成都)有限公司
+similarity value: 0.6482599536
+---------------------------------------------
+HFM_index_1: 75HFM_name_1: 华润置地(北京)物业管理有限责任公司
+HFM_index_2: 80HFM_name_2 : 北京华润物业管理有限公司
+similarity value: 0.6499951315
+---------------------------------------------
+HFM_index_1: 77HFM_name_1: 华润置地(北京)物业管理有限责任公司天津分公司
+HFM_index_2: 79HFM_name_2 : 华润置地(天津)有限公司
+similarity value: 0.6700672987
+---------------------------------------------
+HFM_index_1: 79HFM_name_1: 华润置地(天津)有限公司
+HFM_index_2: 77HFM_name_2 : 华润置地(北京)物业管理有限责任公司天津分公司
+similarity value: 0.6700672987
+---------------------------------------------
+HFM_index_1: 80HFM_name_1: 北京华润物业管理有限公司
+HFM_index_2: 75HFM_name_2 : 华润置地(北京)物业管理有限责任公司
+similarity value: 0.6499951315
+---------------------------------------------
+HFM_index_1: 93HFM_name_1: 华润置地(成都)有限公司(PRC虚拟节点)
+HFM_index_2: 94HFM_name_2 : 华润置地(重庆)有限公司(PRC虚拟节点)
+similarity value: 0.6127153502
+---------------------------------------------
+HFM_index_1: 94HFM_name_1: 华润置地(重庆)有限公司(PRC虚拟节点)
+HFM_index_2: 93HFM_name_2 : 华润置地(成都)有限公司(PRC虚拟节点)
+similarity value: 0.6127153502
+---------------------------------------------
+HFM_index_1: 96HFM_name_1: 华润置地(沈阳)有限公司
+HFM_index_2: 74HFM_name_2 : 华润置地有限公司(PRC合并)
+similarity value: 0.6241524031
+---------------------------------------------
+HFM_index_1: 96HFM_name_1: 华润置地(沈阳)有限公司
+HFM_index_2: 117HFM_name_2 : 华润置地(沈阳)开发有限公司(PRC共同父节点反冲)
+similarity value: 0.6121413866
+---------------------------------------------
+HFM_index_1: 98HFM_name_1: 华润置地(成都)有限公司
+HFM_index_2: 74HFM_name_2 : 华润置地有限公司(PRC合并)
+similarity value: 0.6482599536
+---------------------------------------------
+HFM_index_1: 108HFM_name_1: 华润置地(合肥)物业管理有限公司(PRC共同父节点反冲)
+HFM_index_2: 117HFM_name_2 : 华润置地(沈阳)开发有限公司(PRC共同父节点反冲)
+similarity value: 0.6517537221
+---------------------------------------------
+HFM_index_1: 113HFM_name_1: 北京优高雅装饰工程有限公司
+HFM_index_2: 23HFM_name_2 : 华润装饰工程有限公司
+similarity value: 0.6348601495
+---------------------------------------------
+HFM_index_1: 117HFM_name_1: 华润置地(沈阳)开发有限公司(PRC共同父节点反冲)
+HFM_index_2: 96HFM_name_2 : 华润置地(沈阳)有限公司
+similarity value: 0.6121413866
+---------------------------------------------
+HFM_index_1: 117HFM_name_1: 华润置地(沈阳)开发有限公司(PRC共同父节点反冲)
+HFM_index_2: 108HFM_name_2 : 华润置地(合肥)物业管理有限公司(PRC共同父节点反冲)
+similarity value: 0.6517537221
+---------------------------------------------
+HFM_index_1: 131HFM_name_1: China Resources Snow Breweries LID(PRC合并)
+HFM_index_2: 146HFM_name_2 : China Resources Snow Breweries (Wuxi) Investments Ltd
+similarity value: 0.6438974684
+---------------------------------------------
+HFM_index_1: 142HFM_name_1: 华润雪花啤酒(上海)有限公司
+HFM_index_2: 144HFM_name_2 : 上海金山华润雪花啤酒有限公司
+similarity value: 0.6841387852
+---------------------------------------------
+HFM_index_1: 144HFM_name_1: 上海金山华润雪花啤酒有限公司
+HFM_index_2: 142HFM_name_2 : 华润雪花啤酒(上海)有限公司
+similarity value: 0.6841387852
+---------------------------------------------
+HFM_index_1: 146HFM_name_1: China Resources Snow Breweries (Wuxi) Investments Ltd
+HFM_index_2: 131HFM_name_2 : China Resources Snow Breweries LID(PRC合并)
+similarity value: 0.6438974684
+---------------------------------------------
+HFM_index_1: 157HFM_name_1: 重庆华润万家生活超市有限公司
+HFM_index_2: 179HFM_name_2 : 辽宁华润万家生活超市有限公司
+similarity value: 0.6351225394
+---------------------------------------------
+HFM_index_1: 157HFM_name_1: 重庆华润万家生活超市有限公司
+HFM_index_2: 182HFM_name_2 : 华润万家生活超市(宁波)有限公司
+similarity value: 0.6394727356
+---------------------------------------------
+HFM_index_1: 175HFM_name_1: 陕西华润万家生活超市有限公司(PRC合并)
+HFM_index_2: 176HFM_name_2 : 陕西华润万家生活超市有限公司宝鸡西凤路分公司
+similarity value: 0.6024831625
+---------------------------------------------
+HFM_index_1: 176HFM_name_1: 陕西华润万家生活超市有限公司宝鸡西凤路分公司
+HFM_index_2: 175HFM_name_2 : 陕西华润万家生活超市有限公司(PRC合并)
+similarity value: 0.6024831625
+---------------------------------------------
+HFM_index_1: 179HFM_name_1: 辽宁华润万家生活超市有限公司
+HFM_index_2: 157HFM_name_2 : 重庆华润万家生活超市有限公司
+similarity value: 0.6351225394
+---------------------------------------------
+HFM_index_1: 179HFM_name_1: 辽宁华润万家生活超市有限公司
+HFM_index_2: 182HFM_name_2 : 华润万家生活超市(宁波)有限公司
+similarity value: 0.6358283107
+---------------------------------------------
+HFM_index_1: 182HFM_name_1: 华润万家生活超市(宁波)有限公司
+HFM_index_2: 157HFM_name_2 : 重庆华润万家生活超市有限公司
+similarity value: 0.6394727356
+---------------------------------------------
+HFM_index_1: 182HFM_name_1: 华润万家生活超市(宁波)有限公司
+HFM_index_2: 179HFM_name_2 : 辽宁华润万家生活超市有限公司
+similarity value: 0.6358283107
+---------------------------------------------
+HFM_index_1: 254HFM_name_1: 华润水泥控股有限公司
+HFM_index_2: 266HFM_name_2 : 华润水泥(内蒙古)控股有限公司
+similarity value: 0.6585115644
+---------------------------------------------
+HFM_index_1: 254HFM_name_1: 华润水泥控股有限公司
+HFM_index_2: 267HFM_name_2 : 华润水泥(合浦)控股有限公司(PRC合并)
+similarity value: 0.6166505783
+---------------------------------------------
+HFM_index_1: 266HFM_name_1: 华润水泥(内蒙古)控股有限公司
+HFM_index_2: 254HFM_name_2 : 华润水泥控股有限公司
+similarity value: 0.6585115644
+---------------------------------------------
+HFM_index_1: 267HFM_name_1: 华润水泥(合浦)控股有限公司(PRC合并)
+HFM_index_2: 254HFM_name_2 : 华润水泥控股有限公司
+similarity value: 0.6166505783
+---------------------------------------------
+HFM_index_1: 362HFM_name_1: 华润医疗集团有限公司(PRC合并)
+HFM_index_2: 1HFM_name_2 : 华润(集团)有限公司(PRC合并)
+similarity value: 0.6730325143
